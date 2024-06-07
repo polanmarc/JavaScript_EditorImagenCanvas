@@ -1,0 +1,111 @@
+/* Clases generales */
+
+body {
+    margin: 0 auto;
+}
+
+img {
+    width: 350px;
+}
+
+/* Contenido de la Pagina */
+
+#imagenes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#containerFiltros {
+    padding: 20px 0px;
+    background-color: #2d2f3b;
+    display: flex;
+    padding-left: 180px;
+}
+
+#containerImagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+#canvas {
+    padding-bottom: 20px;
+}
+
+.filtro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 10px;
+    margin-right: 10px;
+}
+
+/* Iconos Filtros */
+
+#aclarar {
+    background-color: #f56456;
+}
+
+#escalaGris {
+    background-color: #1481ea;
+}
+
+#negativo {
+    background-color: #a0aab4;
+}
+
+#espejo {
+    background-color: #f66455;
+}
+
+#espejoInvertido {
+    background-color: yellow;
+}
+
+#frio {
+    background-color: rgb(0, 183, 255);
+}
+
+#calor {
+    background-color: rgb(255, 123, 0);
+}
+
+#sepia {
+    background-color: whitesmoke;
+}
+
+#saturacion {
+    background-color: #570000;
+}
+
+#eliminarFiltro {
+    background-color: #e7002e;
+}
+
+#limpiar {
+    background-color: #e54062;
+}
+
+#guardar {
+    background-color: #01aa97;
+}
+
+/* Aparecer elementos de filtrado */
+
+#containerFiltroAclarar {
+    display: none;
+    width: 250px;
+    padding-left: 625px;
+}
+
+.aparecer {
+    display: flex !important;
+    justify-content: center;
+    padding-bottom: 20px;
+    flex-direction: column;
+}
